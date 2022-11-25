@@ -5,6 +5,7 @@ body {
     sans-serif,'Montserrat';font-size: 22px;;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
 }
 
 code {

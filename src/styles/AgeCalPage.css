@@ -1,0 +1,37 @@
+.age-content{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.results-age-content{
+  color: aliceblue;
+  border-radius: 2%;
+  width: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.calendar-content{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 500px;
+  border-radius: 2%;
+  background-color: #494848;
+  margin-top: 50px;
+}
+.results-age-content div{
+  border-radius: 2%;
+  width: 90px;
+  height: auto;
+  margin: 10px 40px;
+  background-color: #494848;
+}
+.results-age-content div p{
+  text-align: center;
+}
