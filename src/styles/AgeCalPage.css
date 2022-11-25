@@ -21,17 +21,18 @@
   flex-direction: row;
   justify-content: center;
   width: 500px;
-  border-radius: 2%;
+  border-radius: 15px;
   background-color: #494848;
   margin-top: 50px;
 }
 .results-age-content div{
   border-radius: 2%;
-  width: 90px;
+  width: 100px;
   height: auto;
   margin: 10px 40px;
   background-color: #494848;
 }
 .results-age-content div p{
+  margin-top: 20px;
   text-align: center;
 }

@@ -10,6 +10,12 @@
     justify-content: center;
     align-items: center;
 }
+.link-nav-active{
+    font-size: 15px;
+    margin: 0px 30px;
+    text-decoration: underline;
+    color: rgb(92, 91, 91);
+}
 .link-nav{
     font-size: 15px;
     margin: 0px 30px;
@@ -36,7 +42,8 @@
     align-items: center;
 }
 .logo-text{
-    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
     margin: 0px 30px;
     text-decoration: none;
     color: rgb(56, 56, 56);

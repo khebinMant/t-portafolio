@@ -8,9 +8,9 @@ export const Inputs = ({props}) => {
                 {
                     option === 'kg'
                     ?
-                    <p>{value} <b>{option}</b></p>
+                    <p style={{display:'inline'}}>{value} <b>{option}</b></p>
                     :
-                    <p>{value*.01} <b>{option}</b></p>
+                    <p style={{display:'inline'}}>{value*.01} <b>{option}</b></p>
                 }
 
         </>

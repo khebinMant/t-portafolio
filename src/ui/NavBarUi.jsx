@@ -1,7 +1,6 @@
 import Container from '@mui/material/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link, NavLink } from 'react-router-dom'
-import Nav from 'react-bootstrap/Nav';
+import { NavLink } from 'react-router-dom'
 import '../styles/NavBarUi.css'
 import logo from  '../assets/kruger.png'
 
@@ -41,7 +40,7 @@ export const  NavBarUi=()=> {
 
   return (
     <>
-      <Navbar className='bar-content' bg="light">
+      <Navbar className='bar-content'>
         <Container>
           <div className='title-routes'>
             {
@@ -53,11 +52,13 @@ export const  NavBarUi=()=> {
                   <div>
                   <div className='center-logo'>
                       <img className='logo' src={logo} ></img>
-                      <Link className='logo-text' to={page.to}><p>{page.name}</p></Link>
+                      <NavLink className='logo-text' to={page.to}><p>{page.name}</p></NavLink>
                   </div>
                   </div>
                   :
-                  <Link className='link-nav' to={page.to}><p>{page.name}</p></Link>
+                  <NavLink 
+                  className={({isActive})=>`${isActive?'link-nav-active':'link-nav'}`}
+                   to={page.to}><p>{page.name}</p></NavLink>
                 }
                 </>
               ))

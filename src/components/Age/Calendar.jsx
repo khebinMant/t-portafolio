@@ -1,5 +1,6 @@
 import { useAgeCalc } from "../../hooks/AgeCalc/useAgeCalc"
 import { Results } from "./Results"
+import Button from 'react-bootstrap/Button';
 import '../../styles/AgeCalPage.css'
 
 export const Calendar = () => {
@@ -9,10 +10,9 @@ export const Calendar = () => {
 
   return (
     <>
-      <h3>Ingrese su fecha de nacimiento: </h3>
       <div className="calendar-content">
           <input style={{marginRight:'20px'}} type="date" name="fecha" value={birthDate || ''} onChange={handleDateChange}/>
-          <button onClick={calcAge} >Calcular</button>
+          <Button  onClick={calcAge} variant="secondary">Calcular</Button>{' '}
       </div>
       <Results props={{years, months, days}}/>
 
