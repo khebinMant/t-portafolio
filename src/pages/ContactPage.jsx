@@ -6,7 +6,7 @@ import '../styles/ContactPage.css'
 
 export const ContactPage = () => {
   return (
-    <div className="contact-page-container">
+    <div className="contact-page-container animate__animated animate__fadeIn">
       <h1>Ready to connet with me?</h1>
       <div className='form-container'>
         <Form>

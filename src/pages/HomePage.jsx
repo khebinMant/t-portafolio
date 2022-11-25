@@ -2,7 +2,7 @@ import '../styles/HomePage.css'
 
 export const HomePage = () => {
   return (
-    <div className="home-content">
+    <div className="home-content animate__animated animate__fadeIn">
       <p className='title-home' >
         Welcome to my Playground
       </p>

@@ -5,7 +5,7 @@ import '../styles/ClockPage.css'
 export const ClockPage = () => {
     
     return (
-        <div className="clock-page animate__fadeInDown">
+        <div className="clock-page animate__animated animate__fadeIn">
             <div className="clock">
                 <ClockHands />
                 <ClockNumbers />
