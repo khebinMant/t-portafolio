@@ -4,13 +4,13 @@ import photo from  '../assets/kevin.jpeg'
 export const AboutMePage = () => {
   return (
     <div className="about-me-container">
-      <img className='about-image' src={photo}></img>
-      <div className='information'>
+      <img alt="Kevin M"className='about-image' src={photo}></img>
+      <div className='information animate__fadeInDown'>
         <h3>Kevin Alexander Mantilla G</h3>
-        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum rhoncus diam a laoreet. 
-        Vivamus finibus arcu vitae lectus bibendum, egestas blandit leo cursus. Sed tincidunt tempor 
-        ligula id laoreet. Etiam nec lacinia augue. Vestibulum ante ipsum primis in faucibus orci luctus 
-        et ultrices posuere cubilia curae; In id euismod urna.</span>
+        <span>
+          Hi, I'm a Software Developer From Quito-Ecuador
+
+        </span>
       </div>
     </div>
   )

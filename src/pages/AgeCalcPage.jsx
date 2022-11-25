@@ -3,8 +3,8 @@ import '../styles/AgeCalPage.css'
 
 export const AgeCalcPage = () => {
   return (
-    <div className="age-content">
-      <h3>Ingresa tu fecha de nacimiento</h3>
+    <div className="age-content animate__fadeInDown">
+      <h1>Enter your first and last name</h1>
       <Calendar />
     </div>
   )

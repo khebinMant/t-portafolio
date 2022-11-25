@@ -14,12 +14,12 @@ export const useImc = () => {
         let heightMesureNew = (heightMesure * .01) * (heightMesure * .01)
         setImcMesure(kgMesure/heightMesureNew )
 
-        imcTableValues.map(imc =>{
+        imcTableValues.forEach(imc => {
             if (imcMesure > imc.imc_low && imcMesure < imc.imc_high) {
                 console.log(imc)
                 setResult(imc)
             }
-        })
+        });
     }
 
     const handleKgChange = (e)=>{

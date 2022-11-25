@@ -49,16 +49,18 @@ export const  NavBarUi=()=> {
                 {
                   page.name==='KrugerStar'
                   ?
-                  <div>
                   <div className='center-logo'>
-                      <img className='logo' src={logo} ></img>
-                      <NavLink className='logo-text' to={page.to}><p>{page.name}</p></NavLink>
-                  </div>
+                      <img alt='Kruger logo' className='logo' src={logo} ></img>
+                      <NavLink 
+                        className='logo-text' 
+                        to={page.to}><p><b>{page.name}</b></p>
+                      </NavLink>
                   </div>
                   :
                   <NavLink 
-                  className={({isActive})=>`${isActive?'link-nav-active':'link-nav'}`}
-                   to={page.to}><p>{page.name}</p></NavLink>
+                    className={({isActive})=>`${isActive?'link-nav-active':'link-nav'}`}
+                    to={page.to}><b><p>{page.name}</p></b>
+                  </NavLink>
                 }
                 </>
               ))

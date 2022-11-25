@@ -2,8 +2,8 @@ import { ImcResult, ImcTable } from "../components/IMC"
 
 export const ImcPage = () => {
   return (
-    <div className='body-content'>
-        <h3>Ingresa tu peso y tu altura </h3>
+    <div className='imc-content'>
+        <h1>Enter your weight and height</h1>
         <ImcResult />
         <ImcTable />
     </div>
