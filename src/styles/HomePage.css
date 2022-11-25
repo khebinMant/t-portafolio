@@ -1,6 +1,17 @@
 .home-content{
-    border-width: 3px;
-    border-width: 1px;
+    height: 70vh;
     width: 100vw;
-
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-home{
+    margin: 0px 100px;
+    text-align: center;
+    font-size: 36px;
+}
+.title-home{
+    font-size: 48px;
 }

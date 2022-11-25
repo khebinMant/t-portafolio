@@ -12,8 +12,8 @@
   .result-content{
     border-radius: 2%;
     height: auto;
-    width: 340px;
-    background-color: rgb(209, 208, 208);
+    width: 500px;
+    background-color: #D9D9D9;
     border: 1px;
   }
   
@@ -21,16 +21,34 @@
     margin-top: 20px;
     border-radius: 2%;
     height: auto;
-    width: auto;
-    background-color: rgb(209, 208, 208);
+    width: 500px;
+    background-color: #D9D9D9;
     border: 1px;
   }
   
   table{
+    width: 500px;
     margin: auto;
     text-align: center;
     border-collapse: collapse;
   }
   .firstLine td{
     border-bottom: 2px solid black;
+  }
+  .result-stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slider-container input {
+    width: 80%;
   }

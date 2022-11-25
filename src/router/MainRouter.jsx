@@ -13,7 +13,7 @@ export const MainRouter = () => {
                     <Route path='/imc' element={<ImcPage />}/>
                     <Route path='/age' element={<AgeCalcPage />}/>
                     <Route path='/clock' element={<ClockPage />}/>
-                    <Route path='/about' element={<AboutMePage />}/>
+                    <Route path='/about-me' element={<AboutMePage />}/>
                     <Route path='/contact' element={<ContactPage />}/>
             </Routes>
         </>
