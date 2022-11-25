@@ -1,12 +1,10 @@
 .about-me-container{
     display: flex;
     flex-direction: row;
-     align-items: center;
-     justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
 }
 .about-image{
-    border-width: 0.01px;
-    border-style: solid;
     border-radius: 2px;
     margin: 50px 70px;
     width: 300px;
@@ -22,4 +20,5 @@
 }
 .information span{
     font-size: 18px;
+    opacity: 80%;
 }

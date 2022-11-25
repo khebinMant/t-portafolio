@@ -1,3 +1,11 @@
-.footer-content{
-    color: aliceblue;
+.footer{
+    position: absolute;
+    bottom: 0;
+    color: FFFFFF;
+    text-align: center;
+    width: 100%;
+}
+.footer p {
+    font-size: 15px;
+    opacity: 80%;
 }

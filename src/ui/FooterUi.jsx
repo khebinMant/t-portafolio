@@ -1,13 +1,10 @@
-import Container from '@mui/material/Container';
-import Navbar from 'react-bootstrap/Navbar';
 import '../styles/FooterUi.css'
 
 export const  FooterUi= () =>{
   return (
     <>
-      <footer className='footer-content' bg="light">
-        <Container>
-        </Container>
+      <footer className='footer' bg="light">
+            <p>@ Kruger Corp 2022. Transforming Enterprises Boosting Lives</p>
       </footer>
     </>
   );
