@@ -12,6 +12,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 20px;
 }
 .link-nav-active{
     font-size: 15px;
@@ -28,9 +29,12 @@
     color: rgb(92, 91, 91);
 }
 .line{
-    margin-top: 50px;
+    border-style: solid;
+    border-width: 2px;
+    opacity: 20%;
+    margin-top: 80px;
     width: 95vw;
-    border-bottom: 1px solid rgb(102, 101, 101);
+    border-bottom: 1px solid rgb(175, 175, 175);
     position: absolute;
 }
 .logo{
@@ -53,3 +57,4 @@
     text-decoration: none;
     color: rgb(56, 56, 56);
 }
+
