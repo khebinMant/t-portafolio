@@ -1,0 +1,6 @@
+export * from './AboutMePage'
+export * from './AgeCalcPage'
+export * from './ClockPage'
+export * from './ContactPage'
+export * from './HomePage'
+export * from './ImcPage'

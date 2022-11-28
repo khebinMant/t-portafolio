@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Montserrat:ital,wght@0,100;0,200;0,500;1,100&display=swap');
+
+.bar-content{
+    text-align: center;
+    margin-top: 10px;
+    height: 70px;
+    background-color: #FFFFFF;
+}
+.title-routes{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.link-nav-active{
+    font-size: 15px;
+    margin: 0px 30px;
+    text-decoration: underline;
+    color: rgb(92, 91, 91);
+}
+.link-nav{
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    margin: 0px 30px;
+    text-decoration: none;
+    color: rgb(92, 91, 91);
+}
+.line{
+    border-style: solid;
+    border-width: 2px;
+    opacity: 20%;
+    margin-top: 80px;
+    width: 95vw;
+    border-bottom: 1px solid rgb(175, 175, 175);
+    position: absolute;
+}
+.logo{
+    margin-bottom: 30px;
+    margin-right: -25px;
+    display: inline;
+    width: 62px;
+    height: 60px;
+}
+.center-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo-text{
+    font-family: 'Comfortaa', cursive;
+    font-size: 28px;
+    margin: 0px 30px;
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+

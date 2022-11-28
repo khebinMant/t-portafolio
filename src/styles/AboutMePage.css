@@ -1,0 +1,25 @@
+.about-me-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-image{
+    border-radius: 2px;
+    margin: 50px 70px;
+    width: 400px;
+    height: 650px;
+}
+.information{
+    margin-right: 100px;
+    margin-left: 60px;
+}
+.information h3{
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.information span{
+    text-align: center;
+    font-size: 18px;
+    opacity: 80%;
+}
