@@ -6,7 +6,6 @@ export const MainRouter = () => {
   return (
         <>
             <NavBarUi />
-            <FooterUi />
             <Routes>
                     <Route path="/*" element={ <HomePage /> } />
                     <Route path='/home' element={<HomePage />}/>
@@ -16,6 +15,7 @@ export const MainRouter = () => {
                     <Route path='/about-me' element={<AboutMePage />}/>
                     <Route path='/contact' element={<ContactPage />}/>
             </Routes>
+            <FooterUi/>
         </>
     )
 }

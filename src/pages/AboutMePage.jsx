@@ -18,5 +18,6 @@ export const AboutMePage = () => {
         </span>
       </div>
     </div>
+    
   )
 }

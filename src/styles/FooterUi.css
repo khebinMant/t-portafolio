@@ -1,9 +1,10 @@
 .footer{
-    position: absolute;
     bottom: 0;
-    color: FFFFFF;
+    left: 0;
+    position: fixed;
     text-align: center;
     width: 100%;
+    z-index: -1;
 }
 .footer p {
     font-size: 15px;

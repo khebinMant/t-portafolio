@@ -37,3 +37,18 @@
   margin-top: 20px;
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+  .age-content{
+    /* width: auto; */
+    align-items: center;
+  }
+  .calendar-content{
+    font-size: 10px;
+    width: 330px;
+  }
+  .results-age-content div{
+    font-size: 10px;
+    width: 40px;
+    justify-content: center;
+  }
+}

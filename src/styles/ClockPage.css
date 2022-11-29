@@ -121,3 +121,14 @@
   transform: translate(-50%, -50%);
 }
 
+
+@media only screen and (max-width: 600px) {
+  .clock-page{
+    width: 95vw;
+  }
+  .clock {
+    width: 280px;
+    height: 280px;
+  }
+
+}
